@@ -3,7 +3,7 @@
 // Caleb Norris
 // April 7th, 2022
 // Form to take in a users order of cupcakes, requiring their name, and desired cupcake flavors
-// On Submission, it will take user to an confirmed order page, displaying their order and total cost
+// On Submission, it will take user to a confirmed order page, displaying their order and total cost
 
 // Validating and grabbing name input
 if (isset($_POST['name'])) {
@@ -44,6 +44,8 @@ foreach($cupcakes as $cake) {
 }
 echo "</ul>";
 
+
+$TOTAL = number_format($TOTAL, 2, '.', '');
 
 
 echo "<p>Total: $$TOTAL</p>";
