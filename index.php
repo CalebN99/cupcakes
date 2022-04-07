@@ -12,7 +12,7 @@
 </head>
 <body>
     <h1>Cupcake Fundraiser</h1><br>
-    <form>
+    <form action="process.php" method="POST">
         <label>Your name:</label>
         <input type="text" name="name"><br>
         <label>Cupcake flavors:</label><br>
