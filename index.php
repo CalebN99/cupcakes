@@ -16,18 +16,15 @@
         <label>Your name:</label>
         <input type="text" name="name"><br>
         <label>Cupcake flavors:</label><br>
-        <input type="checkbox" name="flavor[]" value="Tiramisu"> Tiramisu
-        <input type="checkbox" name="flavor[]" value="Lemon Drop"> Lemon Drop
-        <input type="checkbox" name="flavor[]" value="Red Velvet"> Red Velvet
-        <input type="checkbox" name="flavor[]" value="Salted Caramel Cupcake"> Salted Caramel Cupcake
-        <input type="checkbox" name="flavor[]" value="Carrot Walnut"> Carrot Walnut
-        <input type="checkbox" name="flavor[]" value="Whiskey Maple Bacon"> Whiskey Maple Bacon
-        <input type="checkbox" name="flavor[]" value="The Grasshopper"> The Grasshopper
+        <input type="checkbox" name="flavor[]" value="Tiramisu"> Tiramisu<br>
+        <input type="checkbox" name="flavor[]" value="Lemon Drop"> Lemon Drop<br>
+        <input type="checkbox" name="flavor[]" value="Red Velvet"> Red Velvet<br>
+        <input type="checkbox" name="flavor[]" value="Salted Caramel Cupcake"> Salted Caramel Cupcake<br>
+        <input type="checkbox" name="flavor[]" value="Carrot Walnut"> Carrot Walnut<br>
+        <input type="checkbox" name="flavor[]" value="Whiskey Maple Bacon"> Whiskey Maple Bacon<br>
+        <input type="checkbox" name="flavor[]" value="The Grasshopper"> The Grasshopper<br>
 
-
-
-
-
+        <button type="submit" >Submit</button>
     </form>
 </body>
 </html>
