@@ -12,5 +12,9 @@
 </head>
 <body>
     <h1>Cupcake Fundraiser</h1>
+    <form>
+        <label>Your name:</label>
+        <input type="text" name="name">
+    </form>
 </body>
 </html>
