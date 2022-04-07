@@ -11,10 +11,13 @@
     <title>Cupcakes</title>
 </head>
 <body>
-    <h1>Cupcake Fundraiser</h1>
+    <h1>Cupcake Fundraiser</h1><br>
     <form>
         <label>Your name:</label>
-        <input type="text" name="name">
+        <input type="text" name="name"><br>
+        <label>Cupcake flavors:</label><br>
+        <input type="checkbox" name="flavor[]" value="Tiramisu"> Tiramisu
+
     </form>
 </body>
 </html>
